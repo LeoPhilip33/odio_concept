@@ -44,7 +44,6 @@ class Inscription extends Component {
       </div>
     );
   }
-
 }
 
 export default Inscription;
