@@ -13,15 +13,15 @@ class Inscription extends Component {
       <div className="container_inscription">
           <div className="background_color_inscription">
             <div className="center_inscription">
-              <img className="logo" src={logo_blanc} alt="logo podkast" />
+              <img className="logo" src={logo_blanc} alt="logo podkast"/>
               <div>
                 <h1 className="color_white_inscription text_align_center"> Inscrivez-vous ! </h1>
                 <div className="flex_inscription">
-                    <div className="fle_btn_facebook_logo" >
-                      <btn className="bouton_inscription_fb_gg">Facebook</btn>
+                    <div className="fle_btn_facebook_logo">
+                      <button className="bouton_inscription_fb_gg">Facebook</button>
                     </div>
                     <div className="le_btn_facebook_logo">
-                      <btn className="bouton_inscription_fb_gg">Google</btn>
+                      <button className="bouton_inscription_fb_gg">Google</button>
                     </div>
                 </div>
                 <div className="flex_inscription">
@@ -34,7 +34,7 @@ class Inscription extends Component {
                   <input type="text" className="input_inscription" placeholder="Confirmation du mot de passe"></input>
                 </div>
                 <div className="flex_btn_inscription">
-                <btn className="bouton_inscription_inscr">Inscription</btn>
+                  <button className="bouton_inscription_inscr">Inscription</button>
                 </div>
               </div>
             </div>
@@ -48,7 +48,6 @@ class Inscription extends Component {
       </div>
     );
   }
-
 }
 
 export default Inscription;
