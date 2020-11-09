@@ -11,7 +11,21 @@
     align-items: center;
 }
 
+/* BOUTON DEBUT */
 
+.bouton_inscription_inscr{
+    cursor: pointer;
+    background: linear-gradient(to right, #375DF0, #6A11CB);
+    padding : 15px;
+    border-radius: 7px;
+    border: 1px solid white;
+    color:white;
+    margin: 10px;
+    width: 200px;
+    font-weight: bold;
+}
+
+/* BOUTON FIN */
 
 .logo{
     height: 12%;

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Inscription.css';
 import logo_blanc_podkast from '../img/logo_blanc_podkast.svg';
-import Btn_fb_gg from '../btn_fb_gg/Btn_fb_gg';
+import BtnFbGg from '../BtnFbGg/BtnFbGg';
 
 
 
@@ -18,7 +18,7 @@ class Inscription extends Component {
               <img className="logo" src={logo_blanc_podkast} alt="logo podkast"/>
               <div>
                 <h1 className="color_white_inscription text_align_center"> Inscrivez-vous ! </h1>
-                  <Btn_fb_gg />
+                  <BtnFbGg />
                 <div className="flex_inscription">
                   <p className="color_white_inscription"> Déjà inscrit sur Odia ? </p> <a href="https://www.google.com/" className="color_white_inscription a_unstyle_inscription margin_left_connexion">Connexion</a>
                 </div>

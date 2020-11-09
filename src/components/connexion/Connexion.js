@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Connexion.css';
 import logo_blanc_podkast from '../img/logo_blanc_podkast.svg';
-import Btn_bf_gg from '../btn_fb_gg/Btn_fb_gg';
+import BtnFbGg from '../BtnFbGg/BtnFbGg';
 
 class Connexion extends Component {
   render () {
@@ -12,7 +12,7 @@ class Connexion extends Component {
             <img className="logo" src={logo_blanc_podkast} alt="logo podkast" />
             <div>
                 <h1 className="color_white_connexion text_align_center"> Connectez-vous ! </h1>
-                  <Btn_bf_gg />
+                  <BtnFbGg />
                 <div className="input_style_connexion">
                   <input type="text" className="input_connexion" placeholder="Email" ></input>
                   <input type="text" className="input_connexion" placeholder="Mot de passe"></input>
