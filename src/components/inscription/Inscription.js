@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import './Inscription.css';
 import logo_blanc from './img/logo_blanc.svg';
-import btn_facebook from './img/btn_facebook.png';
-import btn_google from './img/btn_google.png';
-import btn_inscription from './img/btn_inscription.png';
-
+import logo_google from './img/ico_google.svg';
+import logo_fb from './img/ico_fb.svg';
 import Cars from '../test/Cars';
 
 class Inscription extends Component {
