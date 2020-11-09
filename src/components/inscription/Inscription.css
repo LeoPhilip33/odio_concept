@@ -1,0 +1,52 @@
+.background_color_inscription{
+    background: linear-gradient(to right,#6A11CB, #375DF0);
+    height: 100vh;
+    width: 100%;
+}
+.center_inscription{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex_inscription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color_white_inscription{
+    color: white;
+}
+.a_unstyle_inscription{
+    text-decoration: none;
+    font-weight: bold;
+}
+.margin_left_connexion{
+    margin-left: 10px;
+}
+.input_inscription{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0px solid;
+}
+.input_style_inscription{
+    display: flex;
+    flex-direction: column;
+    color: #C2C2C2;
+}
+.text_align_center{
+    text-align: center;
+}
+
+.flex_btn_inscription{
+    margin-top: 30px ;    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.style_btn_inscription{
+    width: 300px;
+}
