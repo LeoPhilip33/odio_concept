@@ -34,7 +34,7 @@ class Inscription extends Component {
                   <input type="text" className="input_inscription" placeholder="Confirmation du mot de passe"></input>
                 </div>
                 <div className="flex_btn_inscription">
-                  <img className="style_btn_inscription" src={btn_inscription} alt="logo podkast" />
+                <btn className="bouton_inscription_inscr">Inscription</btn>
                 </div>
               </div>
             </div>
