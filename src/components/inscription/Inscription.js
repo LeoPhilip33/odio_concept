@@ -18,10 +18,10 @@ class Inscription extends Component {
                 <h1 className="color_white_inscription text_align_center"> Inscrivez-vous ! </h1>
                 <div className="flex_inscription">
                     <div className="fle_btn_facebook_logo" >
-                      <btn className="bouton_inscription_fb_gg">Facebook</btn>
+                      <div className="bouton_inscription_fb_gg">Facebook</div>
                     </div>
                     <div className="le_btn_facebook_logo">
-                      <btn className="bouton_inscription_fb_gg">Google</btn>
+                      <div className="bouton_inscription_fb_gg">Google</div>
                     </div>
                 </div>
                 <div className="flex_inscription">

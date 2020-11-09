@@ -13,17 +13,18 @@
 
 /* BOUTONS */  
 
-.bouton_inscription_fb_gg{
+.bouton_inscription_fb_gg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: linear-gradient(to right, #375DF0, #6A11CB);
-    padding : 10px;
-    padding-left: 60px;
-    padding-right: 60px;
     border-radius: 7px;
     border: 1px solid white;
-    color:white;
+    color: white;
     margin: 10px;
+    width: 152px;
+    height: 50px;
 }
-
 
 .logo{
     height: 12%;
