@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './Inscription.css';
 import logo_blanc from './img/logo_blanc.svg';
-import logo_google from './img/ico_google.svg';
-import logo_fb from './img/ico_fb.svg';
+import icon_google from './img/ico_google.svg';
+import icon_fb from './img/ico_fb.svg';
 import Cars from '../test/Cars';
 
 class Inscription extends Component {
