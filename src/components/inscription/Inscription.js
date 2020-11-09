@@ -17,8 +17,12 @@ class Inscription extends Component {
               <div>
                 <h1 className="color_white_inscription text_align_center"> Inscrivez-vous ! </h1>
                 <div className="flex_inscription">
-                  <btn className="bouton"></btn>
-                  <img src={btn_google} alt="bouton google" />
+                    <div className="fle_btn_facebook_logo" >
+                      <btn className="bouton_inscription_fb_gg">Facebook</btn>
+                    </div>
+                    <div className="le_btn_facebook_logo">
+                      <btn className="bouton_inscription_fb_gg">Google</btn>
+                    </div>
                 </div>
                 <div className="flex_inscription">
                   <p className="color_white_inscription"> Déjà inscrit sur Odia ? </p> <a href="https://www.google.com/" className="color_white_inscription a_unstyle_inscription margin_left_connexion">Connexion</a>
