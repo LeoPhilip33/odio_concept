@@ -4,6 +4,7 @@ import './App.css';
 // Importation des composants :
 import Inscription from './components/inscription/Inscription';
 import Connexion from './components/connexion/Connexion';
+import Main_app from './components/main_app/Main_app';
 
 class App extends Component {
 
@@ -20,6 +21,8 @@ class App extends Component {
         <Inscription title={this.state.titre} />
 
         <Connexion />
+
+        <Main_app />
 
       </div>
 
