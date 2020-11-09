@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import './Inscription.css';
 import logo_blanc_podkast from '../img/logo_blanc_podkast.svg';
+import icon_fb from '../img/icon_fb.svg';
+import icon_google from '../img/icon_google.svg';
+
+
+
+
 
 import Cars from '../test/Cars';
 
@@ -15,9 +21,11 @@ class Inscription extends Component {
                 <h1 className="color_white_inscription text_align_center"> Inscrivez-vous ! </h1>
                 <div className="flex_inscription">
                     <div className="fle_btn_facebook_logo">
+                      <img className="icon_fb" src={icon_fb}/>
                       <button className="bouton_inscription_fb_gg">Facebook</button>
                     </div>
                     <div className="le_btn_facebook_logo">
+                      <img className="icon_google" src={icon_google}/>
                       <button className="bouton_inscription_fb_gg">Google</button>
                     </div>
                 </div>
