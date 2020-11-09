@@ -24,6 +24,7 @@ class App extends Component {
 
         <Main_app />
 
+
       </div>
 
     );
