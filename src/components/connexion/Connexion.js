@@ -19,9 +19,6 @@ class Connexion extends Component {
                       <button className="bouton_connexion_fb_gg">Google</button>
                     </div>
                 </div>
-                <div className="flex_connexion">
-                  <p className="color_white_connexion"> Déjà inscrit sur Odia ? </p> <a href="https://www.google.com/" className="color_white_connexion a_unstyle_connexion margin_left_connexion">Connexion</a>
-                </div>
                 <div className="input_style_connexion">
                   <input type="text" className="input_connexion" placeholder="Email" ></input>
                   <input type="text" className="input_connexion" placeholder="Mot de passe"></input>
@@ -29,9 +26,9 @@ class Connexion extends Component {
                 <div className="flex_btn_connexion">
                   <button className="bouton_connexion_inscr">Connexion</button>
                 </div>
-                <p> Mot de passe oublié ?</p>
-                <p> Vous ne possédez pas encore de compte sur Odio ?</p>
-                <p> connexion ?</p>
+                <p className="text_style_connexion bold_text_style_connexion"> Mot de passe oublié ?</p>
+                <p className="text_style_connexion"> Vous ne possédez pas encore de compte sur Odio ?</p>
+                <p className="text_style_connexion bold_text_style_connexion"> connexion ?</p>
               </div>
           </div>
         </div>
