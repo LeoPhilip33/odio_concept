@@ -1,0 +1,35 @@
+.abonnement_premium{
+    border-radius: 10px;
+    background: linear-gradient(to right,#6A11CB, #375DF0);
+    width: fit-content;
+    color: white;
+}
+.hr_modify_sidebar{
+    height: 2px;
+    width: 100%;
+    background-color: white;
+}
+.p_modify_slidebar{
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.txt_links_slidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    height: 80vh;
+}
+.padding_logo_abo_sidebar_gauche{
+    padding: 15px;
+}
+.color_degrade_sidebargauche{
+    width: 10px;
+    height: 20px;
+    background: linear-gradient(to right,#6A11CB, #375DF0);
+}
+.flex_color_degrade_sidebargauche{
+    display: flex;
+}

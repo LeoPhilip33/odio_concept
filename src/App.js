@@ -17,12 +17,12 @@ class App extends Component {
     return (
 
       <div className="App">
+
+        <Main_app />
         
         <Inscription title={this.state.titre} />
 
         <Connexion />
-
-        <Main_app />
 
       </div>
 
