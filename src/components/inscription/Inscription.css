@@ -11,7 +11,7 @@
     align-items: center;
 }
 
-/* BOUTONS */  
+/* BOUTONS DEBUT */  
 
 .bouton_inscription_fb_gg {
     cursor: pointer;
@@ -37,6 +37,11 @@
     font-weight: bold;
 }
 
+.icon_fb{
+    
+}
+
+/* BOUTONS FIN */  
 
 .logo{
     height: 12%;
