@@ -13,10 +13,17 @@
 
 /* BOUTONS */  
 
-.bouton{
+.bouton_inscription_fb_gg{
     background: linear-gradient(to right, #375DF0, #6A11CB);
-    
+    padding : 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 7px;
+    border: 1px solid white;
+    color:white;
+    margin: 10px;
 }
+
 
 .logo{
     height: 12%;
