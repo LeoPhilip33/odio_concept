@@ -10,3 +10,75 @@
     justify-content: center;
     align-items: center;
 }
+.gras_txt_connexion{
+    font-weight: bold;
+}
+.logo{
+    height: 12%;
+    width: auto;
+}
+.color_white_connexion{
+    color: white;
+}
+
+.text_align_center{
+    text-align: center;
+}
+
+.flex_connexion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bouton_connexion_fb_gg {
+    cursor: pointer;
+    background: linear-gradient(to right, #375DF0, #6A11CB);
+    padding : 15px;
+    border-radius: 7px;
+    border: 1px solid white;
+    color:white;
+    margin: 10px;
+    width: 200px;
+    font-weight: bold;
+}
+.flex_connexion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a_unstyle_connexion{
+    text-decoration: none;
+    font-weight: bold;
+}
+.input_style_connexion{
+    display: flex;
+    flex-direction: column;
+    color: #C2C2C2;
+}
+
+.input_connexion{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0px solid;
+}
+.flex_btn_connexion{
+    margin-top: 30px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bouton_connexion_inscr{
+    cursor: pointer;
+    background: linear-gradient(to right, #375DF0, #6A11CB);
+    padding : 15px;
+    border-radius: 7px;
+    border: 1px solid white;
+    color:white;
+    margin: 10px;
+    width: 200px;
+    font-weight: bold;
+}
