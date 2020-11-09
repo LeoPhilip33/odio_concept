@@ -10,13 +10,13 @@ class BtnFbGg extends Component {
     <div className="flex_inscription">
         <div className="fle_btn_facebook_logo">
           <div className="BtnFBGg">
-            <img className="icon_fb" src={icon_fb.svg}/>
+            <img className="icon_fb" src={icon_fb}/>
             <div>Facebook</div>
           </div>
         </div>
         <div className="fle_btn_facebook_logo">
           <div className="BtnFBGg">
-            <img className="icon_google" src={icon_google.svg}/>
+            <img className="icon_google" src={icon_google}/>
             <div>Google</div>
           </div>
         </div>
