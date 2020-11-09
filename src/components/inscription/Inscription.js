@@ -21,12 +21,16 @@ class Inscription extends Component {
                 <h1 className="color_white_inscription text_align_center"> Inscrivez-vous ! </h1>
                 <div className="flex_inscription">
                     <div className="fle_btn_facebook_logo">
-                      <img className="icon_fb" src={icon_fb}/>
-                      <button className="bouton_inscription_fb_gg">Facebook</button>
+                      <div className="bouton_inscription_fb_gg">
+                        <img className="icon_fb" src={icon_fb}/>
+                        <div>Facebook</div>
+                      </div>
                     </div>
-                    <div className="le_btn_facebook_logo">
-                      <img className="icon_google" src={icon_google}/>
-                      <button className="bouton_inscription_fb_gg">Google</button>
+                    <div className="fle_btn_facebook_logo">
+                      <div className="bouton_inscription_fb_gg">
+                        <img className="icon_google" src={icon_google}/>
+                        <div>Google</div>
+                      </div>
                     </div>
                 </div>
                 <div className="flex_inscription">
