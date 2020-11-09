@@ -10,6 +10,18 @@
     justify-content: center;
     align-items: center;
 }
+
+/* BOUTONS */  
+
+.bouton{
+    background: linear-gradient(to right, #375DF0, #6A11CB);
+    
+}
+
+.logo{
+    height: 12%;
+    width: auto;
+}
 .flex_inscription{
     display: flex;
     justify-content: center;
