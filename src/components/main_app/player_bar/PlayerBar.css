@@ -59,7 +59,11 @@
 .container_player_bar{
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     align-self: center;
+=======
+    align-items: center;
+>>>>>>> ef30974dc871bf78552c27d4304440cd8aa20ee4
 }
 
 .back_player_bar{

@@ -6,6 +6,12 @@ import bookmark from '../../img/bookmark.svg';
 import chromecast from '../../img/chromecast.svg';
 import volume_control from '../../img/volume_control.svg';
 import volume_up from '../../img/volume_up.svg';
+import previous from '../../img/icon_left.svg';
+import next from '../../img/icon_right.svg';
+import loop from '../../img/icon_loop.svg';
+import play from '../../img/icon_play.svg';
+import random from '../../img/icon_random.svg';
+
 
 
 
@@ -27,7 +33,7 @@ class PlayerBar extends Component {
 
             <div className="bar_lecture">
                 <div className="back_player_bar">
-                    
+
                 </div>
                 <div className="front_player_bar">
 
