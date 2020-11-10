@@ -27,9 +27,18 @@
 }
 .color_degrade_sidebargauche{
     width: 10px;
-    height: 20px;
+    height: 35px;
     background: linear-gradient(to right,#6A11CB, #375DF0);
 }
 .flex_color_degrade_sidebargauche{
     display: flex;
+    align-items: center;
+    height: 35px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.style_img_sidebargauche{
+    margin-left: 10px;
+    margin-right: 10px;
 }

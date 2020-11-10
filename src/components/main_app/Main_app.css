@@ -2,3 +2,6 @@
     width: fit-content;
     border-right: 1px solid #707070;
 }
+.flex_elementsmainapp{
+    display: flex;
+}
