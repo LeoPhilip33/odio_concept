@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Sidebargauche from './sidebar_gauche/Sidebargauche';
 import TopBarre from '../topBarre/TopBarre';
 import './Main_app.css';
+import PlayerBar from './player_bar/PlayerBar';
 
 class Main_app extends Component {
   render () {
@@ -15,7 +16,10 @@ class Main_app extends Component {
             <TopBarre />
           </div>
         </div>
-      </div>      
+        <div className="player_bar_style_main_app">
+          <PlayerBar />
+        </div>
+      </div>
     );
   }
 }
