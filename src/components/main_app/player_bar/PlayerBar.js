@@ -11,6 +11,7 @@ import next from '../../img/icon_right.svg';
 import loop from '../../img/icon_loop.svg';
 import play from '../../img/icon_play.svg';
 import random from '../../img/icon_random.svg';
+import pause from '../../img/icon_pause.svg';
 
 
 
@@ -32,11 +33,17 @@ class PlayerBar extends Component {
             </div>
 
             <div className="bar_lecture">
-                <div className="back_player_bar">
-
-                </div>
                 <div className="front_player_bar">
-
+                    <img className="random" src={random}/>
+                    <img className="previous" src={previous}/>
+                    <img className="play" src={play}/>
+                    <img className="next" src={next}/>
+                    <img className="loop" src={loop}/>
+                </div>
+                <div className="align_item_playerbar">
+                    <div className="back_player_bar">
+                        <div className="cursor_playerbar"></div>
+                    </div> 
                 </div>
                 
             </div>
