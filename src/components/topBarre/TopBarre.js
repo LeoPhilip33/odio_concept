@@ -12,11 +12,11 @@ class TopBarre extends Component {
       <div className="container_TopBarre">
         <div className="topbar_style">
             <div className="search_dim_topbar" >
-                <input class="searchbar_topbar" type="text" ></input>
+                <input class="searchbar_topbar" type="text" placeholder="Recherche d'un podcast" ></input>
             </div>
             <div className="logo_searchbar_topbar" >
-                <img class="dim_logo_topbarre" src={logo_user} alt="Utilisateur" ></img>
-                <img class="dim_logo_topbarre" src={notifications} alt="Notifications" ></img>
+              <img class="dim_logo_topbarre" src={notifications} alt="Notifications" ></img>
+              <img class="dim_logo_topbarre" src={logo_user} alt="Utilisateur" ></img>
             </div>
         </div>
       </div>

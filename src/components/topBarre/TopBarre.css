@@ -1,23 +1,36 @@
 .container_TopBarre{
     width: 100%;
 }
+
 .topbar_style{
     display: flex;
     background-color: white;
+    padding: 15px;
 }
+
 .searchbar_topbar{
     width: 100%;
-    border-radius: 15px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid grey;
 }
+
 .search_dim_topbar{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 80%;
 }
+
 .logo_searchbar_topbar{
     width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .dim_logo_topbarre{
-    width: 15px;
+    width: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
