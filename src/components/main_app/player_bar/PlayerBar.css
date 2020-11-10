@@ -1,6 +1,66 @@
 .player_bar_style_main_app{
     background: linear-gradient(to right, #6A11CB, #375DF0);
     border: 1px solid white;
+    color: white;
+}
+
+.like_dislike{
+    width: 15px;
+    margin: 10px;
+}
+
+.info_lecture{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
- 
+}
+
+.like_dislike_align{
+    display: flex;
+}
+
+.icon_setting{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:20%
+}
+.bar_lecture{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width:60%;
+}
+
+.icon_setting_bookmark{
+    width: 20px;
+    margin: 10px;
+}
+
+.icon_setting_chromecast{
+    width: 30px;
+    margin: 10px;
+}
+
+.icon_setting_volume_up{
+    width: 30px;
+    margin: 10px;
+}
+
+.icon_setting_volume_control{
+    width: 23px;
+    margin: 10px;
+}
+
+.container_player_bar{
+    display: flex;
+}
+
+.back_player_bar{
+    width:100%;
+	height:10px;
+	background: white;
 }
