@@ -29,6 +29,9 @@
     width:20%
 }
 .bar_lecture{
+    display: flex;
+    justify-content: center;
+    align-content: center;
     width:60%;
 }
 
@@ -54,4 +57,10 @@
 
 .container_player_bar{
     display: flex;
+}
+
+.back_player_bar{
+    width:100%;
+	height:10px;
+	background: white;
 }

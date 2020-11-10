@@ -26,6 +26,12 @@ class PlayerBar extends Component {
             </div>
 
             <div className="bar_lecture">
+                <div className="back_player_bar">
+                    
+                </div>
+                <div className="front_player_bar">
+
+                </div>
                 
             </div>
 
