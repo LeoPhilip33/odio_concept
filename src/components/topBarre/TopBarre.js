@@ -15,8 +15,8 @@ class TopBarre extends Component {
                 <input class="searchbar_topbar" type="text" ></input>
             </div>
             <div className="logo_searchbar_topbar" >
-                <img src={logo_user} alt="Utilisateur" ></img>
-                <img src={notifications} alt="Notifications" ></img>
+                <img class="dim_logo_topbarre" src={logo_user} alt="Utilisateur" ></img>
+                <img class="dim_logo_topbarre" src={notifications} alt="Notifications" ></img>
             </div>
         </div>
       </div>

@@ -4,12 +4,13 @@
 }
 .flex_elementsmainapp{
     display: flex;
+    position: fixed;
+    width: 100%;
 }
 .fixed_topBarre{
-    position: fixed;
-    width: 79vw;
+
+    
 }
 .fixed_top_relative{
-    position: 
-    ;
+    width: 100%;    
 }

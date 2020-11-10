@@ -7,6 +7,7 @@
 }
 .searchbar_topbar{
     width: 100%;
+    border-radius: 15px;
 }
 .search_dim_topbar{
     display: flex;
@@ -16,4 +17,7 @@
 }
 .logo_searchbar_topbar{
     width: 20%;
+}
+.dim_logo_topbarre{
+    width: 15px;
 }
