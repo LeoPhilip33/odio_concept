@@ -12,8 +12,10 @@ class Main_app extends Component {
           <div className="sidebar_style_main_app">
             <Sidebargauche />
           </div>
-          <div>
-            <TopBarre />
+          <div className="fixed_top_relative">
+            <div className="fixed_topBarre">
+              <TopBarre />
+            </div>
           </div>
         </div>
         <div className="player_bar_style_main_app">
