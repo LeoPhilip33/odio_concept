@@ -5,9 +5,7 @@
 }
 .flex_elementsmainapp{
     display: flex;
-    position: fixed;
     width: 100%;
-    top: 0;
 }
 .fixed_topBarre{
 

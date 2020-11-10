@@ -60,6 +60,8 @@
 
 .container_player_bar{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .back_player_bar{
