@@ -1,4 +1,46 @@
 .container_ContainerApp{
-    margin-top: 20px;
+    display: flex;
+    margin-left: 266px;
+    margin-top: 70px;
     margin-bottom: 20px;
+}
+.podcastStymeContainer{
+    border: 1px solid #707070;
+    border-radius: 10px;
+    height: 280px;
+    width: 280px;
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.titrepodcast_nom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.titrepodcast_containerApp{
+    font-size: 20px;
+    font-weight: bold;
+}
+.disp_flex_titrepodcast_nom{
+    display: flex;
+}
+.titlestyle_modif_txt{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.img_positionnement_containerapp{
+    margin-left: auto;
+}
+.style_like_podcast_containerapp{
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.flex_app_items_podcast{
+    display: flex;
+}
+.style_dollars_podcast_containerapp{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 15px;
 }

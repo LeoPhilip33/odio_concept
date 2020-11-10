@@ -20,7 +20,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
-    height: 80vh;
+    height: 75%;
 }
 .padding_logo_abo_sidebar_gauche{
     padding: 15px;
@@ -41,4 +41,7 @@
 .style_img_sidebargauche{
     margin-left: 10px;
     margin-right: 10px;
+}
+.container_sidebar_gauche{
+    height: 100%;
 }

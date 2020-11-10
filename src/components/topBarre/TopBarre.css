@@ -4,8 +4,8 @@
 
 .topbar_style{
     display: flex;
-    background-color: white;
     padding: 15px;
+    z-index: 1;
 }
 
 .searchbar_topbar{
@@ -19,11 +19,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 90%;
 }
 
 .logo_searchbar_topbar{
-    width: 20%;
+    width: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,6 +31,7 @@
 
 .dim_logo_topbarre{
     width: 30px;
+    height: 30px;
     margin-left: 5px;
     margin-right: 5px;
 }
