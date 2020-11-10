@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 // Importation des composants :
 import RegistrationPage from './pages/Registration';
 import LoginPage from './pages/Login';
+import HomPage from './pages/Home/';
 
 class App extends Component {
 
@@ -25,6 +26,9 @@ class App extends Component {
             </Route>
             <Route path="/connexion">
               <LoginPage />
+            </Route>
+            <Route path="/accueil">
+              <HomPage />
             </Route>
             <Route path="/">
               <RegistrationPage />

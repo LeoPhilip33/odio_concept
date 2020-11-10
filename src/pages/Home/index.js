@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { Component } from 'react';
+import MainAPP from '../../components/main_app/Main_app';
 
 const Home = () => {
     return (
-        <div> Notre home page 
-
+        <div> 
+            <MainAPP />
         </div> 
     )
 }
