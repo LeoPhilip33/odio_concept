@@ -1,4 +1,7 @@
 .player_bar_style_main_app{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     background: linear-gradient(to right, #6A11CB, #375DF0);
     border: 1px solid white;
     color: white;
