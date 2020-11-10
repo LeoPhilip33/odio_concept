@@ -24,8 +24,6 @@ class App extends Component {
 
         <Connexion />
 
-        <Main_app />
-
 
       </div>
 
