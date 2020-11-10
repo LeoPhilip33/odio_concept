@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import Connexion from '../../components/connexion/Connexion';
 
 const LoginPage = () => {
     return (
         <div>
-            <h1> OUIII </h1>
+            <Connexion />
         </div>
     )
 

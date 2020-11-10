@@ -1,9 +1,12 @@
 import React from 'react'
+import Inscription from '../../components/inscription/Inscription'
 
-const Registration = () => {
+const RegistrationPage = () => {
     return (
-        <div> Notre Registration page </div> 
+        <div> 
+            <Inscription/>
+        </div> 
     )
 }
 
-export default Registration;
+export default RegistrationPage;

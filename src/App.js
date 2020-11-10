@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 // Importation des composants :
-import Inscription from './components/inscription/Inscription';
-import Connexion from './components/connexion/Connexion';
-import Main_app from './components/main_app/Main_app';
+import RegistrationPage from './pages/Registration';
+import LoginPage from './pages/Login';
 
 class App extends Component {
 
@@ -14,15 +14,25 @@ class App extends Component {
 
   render() {
 
-    return (
-
+      return (
+          
       <div className="App">
-
-        <Main_app />
         
-        <Inscription title={this.state.titre} />
+        <BrowserRouter>
+          <Switch>
+            <Route path="/inscription">
+              <RegistrationPage />
+            </Route>
+            <Route path="/connexion">
+              <LoginPage />
+            </Route>
+            <Route path="/">
+              <RegistrationPage />
+            </Route>
+          </Switch>
+        </BrowserRouter>
 
-        <Connexion />
+       
 
 
       </div>
