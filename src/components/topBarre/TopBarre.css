@@ -1,0 +1,15 @@
+.topbar_style{
+    display: flex;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+.searchbar_topbar{
+    width: 100%;
+}
+.search_dim_topbar{
+    width: 80%;
+}
+.logo_searchbar_topbar{
+    width: 20%;
+}
