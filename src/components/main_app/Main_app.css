@@ -5,3 +5,11 @@
 .flex_elementsmainapp{
     display: flex;
 }
+.fixed_topBarre{
+    position: fixed;
+    width: 79vw;
+}
+.fixed_top_relative{
+    position: 
+    ;
+}
