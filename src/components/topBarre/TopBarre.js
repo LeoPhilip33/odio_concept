@@ -10,10 +10,15 @@ class TopBarre extends Component {
   render () {
     return (
       <div className="container_TopBarre">
-          <input type="text" ></input>
-          <img src={logo_user} alt="Utilisateur" ></img>
-          <img src={notifications} alt="Notifications" ></img>
-        
+        <div className="topbar_style">
+            <div className="search_dim_topbar" >
+                <input class="searchbar_topbar" type="text" ></input>
+            </div>
+            <div className="logo_searchbar_topbar" >
+                <img src={logo_user} alt="Utilisateur" ></img>
+                <img src={notifications} alt="Notifications" ></img>
+            </div>
+        </div>
       </div>
     );
   }
