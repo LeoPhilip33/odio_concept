@@ -31,12 +31,23 @@
     background: linear-gradient(to right,#6A11CB, #375DF0);
 }
 .flex_color_degrade_sidebargauche{
+    cursor: pointer;
     display: flex;
     align-items: center;
     height: 35px;
     width: 100%;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+.flex_color_degrade_sidebargauche:hover{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 35px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: red;
 }
 .style_img_sidebargauche{
     margin-left: 10px;

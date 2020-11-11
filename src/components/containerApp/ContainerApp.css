@@ -21,8 +21,11 @@
     width: 100%;
 }
 .titrepodcast_containerApp{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
+}
+.nom_podcasteur_containerApp{
+    font-size: 13px;
 }
 .disp_flex_titrepodcast_nom{
     display: flex;
@@ -35,14 +38,26 @@
     margin-left: auto;
 }
 .style_like_podcast_containerapp{
+    cursor: pointer;
     margin-right: 15px;
     margin-top: 5px;
+    height: 30px;
+    width: 30px;
 }
 .flex_app_items_podcast{
     display: flex;
 }
 .style_dollars_podcast_containerapp{
+    cursor: pointer;
     display: flex;
     margin-left: 15px;
     margin-top: 15px;
+}
+.style_dollars_podcast_containerapp:hover{
+    cursor: pointer;
+    display: flex;
+    margin-left: 15px;
+    margin-top: 15px;
+    transform: rotate(360deg);
+    transition: 2s;
 }
