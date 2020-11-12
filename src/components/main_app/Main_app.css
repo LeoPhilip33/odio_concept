@@ -9,13 +9,9 @@
     display: flex;
     width: 100%;
 }
-.fixed_topBarre{
-
-    
-}
 .fixed_top_relative{
     position: fixed;
-    margin-left: 266px;
+    margin-left: 267px;
     width: -webkit-fill-available;
     height: fit-content;
     background-color: white;

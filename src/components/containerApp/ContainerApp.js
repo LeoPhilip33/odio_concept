@@ -9,15 +9,29 @@ class ContainerApp extends Component {
   render () {
     return (
       <div className="container_ContainerApp">
-        <div>
-
-          <h1>
+        <div class="width_container_app_page">
+          <h1 class="modification_title_container_app">
             Les podcasts du moments
           </h1>
 
           <div>
 
             <div class="flex_app_items_podcast">
+
+            <div className="podcastStymeContainer">
+              <img className="style_dollars_podcast_containerapp" src={logo_dollars} alt="Liker le podcast" ></img>
+                <div className="titrepodcast_nom">
+                  <div className="disp_flex_titrepodcast_nom">
+                    <div className="titlestyle_modif_txt">
+                      <div className="titrepodcast_containerApp">Titre du podcast</div>
+                      <div className="nom_podcasteur_containerApp">Nom du podcasteur</div>
+                    </div>
+                    <div className="img_positionnement_containerapp" >
+                    <img className="style_like_podcast_containerapp" src={logoCoeur} alt="Liker le podcast" ></img>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
               <div className="podcastStymeContainer">
               <img className="style_dollars_podcast_containerapp" src={logo_dollars} alt="Liker le podcast" ></img>
@@ -69,7 +83,7 @@ class ContainerApp extends Component {
 
           </div>
 
-          <h1>
+          <h1 class="modification_title_container_app">
             Nos recommandations
           </h1>
 
@@ -120,13 +134,71 @@ class ContainerApp extends Component {
             </div>
           </div>
 
-        </div>
-          
+          <div className="podcastStymeContainer">
+              <img className="style_dollars_podcast_containerapp" src={logo_dollars} alt="Liker le podcast" ></img>
+                <div className="titrepodcast_nom">
+                  <div className="disp_flex_titrepodcast_nom">
+                    <div className="titlestyle_modif_txt">
+                      <div className="titrepodcast_containerApp">Titre du podcast</div>
+                      <div className="nom_podcasteur_containerApp">Nom du podcasteur</div>
+                    </div>
+                    <div className="img_positionnement_containerapp" >
+                    <img className="style_like_podcast_containerapp" src={logoCoeur} alt="Liker le podcast" ></img>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
         </div>
+
+        <div class="margin_bottom_page_container_app">
+
+          <h1 class="modification_title_container_app">
+            Tous les thèmes
+          </h1>
+
+          <div class="flex_app_items_podcast_container">
+
+            <div class="theme_containerapp">
+            Thème
+            </div>
+            <div class="theme_containerapp">
+            Thème
+            </div>
+            <div class="theme_containerapp">
+            Thème
+            </div>
+            <div class="theme_containerapp">
+            Thème
+            </div>
+
+          </div>
+
+          <div class="flex_app_items_podcast_container">
+
+            <div class="theme_containerapp">
+            Thème
+            </div>
+            <div class="theme_containerapp">
+            Thème
+            </div>
+            <div class="theme_containerapp">
+            Thème
+            </div>
+            <div class="theme_containerapp">
+            Thème
+            </div>
+
+          </div>
+
+
+        </div>
+                  
+
       </div>
-    );
-  }
+    </div>
+  );
+}
 }
 
 export default ContainerApp;
