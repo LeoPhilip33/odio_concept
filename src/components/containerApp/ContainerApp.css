@@ -14,6 +14,16 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+.podcastStymeContainer:hover{
+    background: linear-gradient(to right, #375DF0, #6A11CB);
+    background-size: cover;
+    border-radius: 10px;
+    height: 220px;
+    width: 220px;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 .theme_containerapp{
     display: flex;
     cursor: pointer;
@@ -30,6 +40,26 @@
     color: white;
     font-size: 25px;
     font-weight: bold;
+    transition-duration: 0.5s;
+}
+.theme_containerapp:hover{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/theme_default_img.svg);
+    width: 240px;
+    height: 120px;
+    margin-left: 33px;
+    margin-right: 33px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    transform: scale(1.07);
+    transition-duration: 0.5s;
 }
 .width_container_app_page{
     width: 100%;
@@ -69,6 +99,7 @@
     display: flex;
 }
 .modification_title_container_app{
+    margin-top: 45px;
     display: flex;
     margin-left: 1%;
 }
@@ -95,7 +126,13 @@
     
 }
 
+.container_etoile_size_modifications{
+    width: 100%;
+    position: absolute;
+    bottom: -37px;
+    left: 0;
+    cursor: pointer;
+}
 .etoile{
-    width: 200px;
-    align-items: center;
+    width: 180px;
 }
