@@ -4,6 +4,7 @@ import './ContainerApp.css';
 
 import logoCoeur from '../img/coeur.svg';
 import logo_dollars from '../img/logo_dollars.svg';
+import ContainerTheme from '../containerTheme/';
 
 class ContainerApp extends Component {
   render () {
@@ -151,49 +152,9 @@ class ContainerApp extends Component {
 
         </div>
 
-        <div class="margin_bottom_page_container_app">
-
-          <h1 class="modification_title_container_app">
-            Tous les thèmes
-          </h1>
-
-          <div class="flex_app_items_podcast_container">
-
-            <div class="theme_containerapp">
-            Thème
-            </div>
-            <div class="theme_containerapp">
-            Thème
-            </div>
-            <div class="theme_containerapp">
-            Thème
-            </div>
-            <div class="theme_containerapp">
-            Thème
-            </div>
-
-          </div>
-
-          <div class="flex_app_items_podcast_container">
-
-            <div class="theme_containerapp">
-            Thème
-            </div>
-            <div class="theme_containerapp">
-            Thème
-            </div>
-            <div class="theme_containerapp">
-            Thème
-            </div>
-            <div class="theme_containerapp">
-            Thème
-            </div>
-
-          </div>
-
-
-        </div>
-                  
+        <h1 class="modification_title_container_app"> Tous les thèmes </h1>
+        
+        <ContainerTheme />
 
       </div>
     </div>
