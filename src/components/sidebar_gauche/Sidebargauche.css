@@ -56,3 +56,7 @@
 .container_sidebar_gauche{
     height: 100%;
 }
+
+.decoration_none{
+    text-decoration: none;
+}
