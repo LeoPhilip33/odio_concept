@@ -1,7 +1,7 @@
 import React from 'react'
-import Main_APP from '../../components/main_app/Main_app'
 import ContainerTheme from '../../components/containerTheme'
 import './live.css';
+import Main_APP from '../main_app/Main_app'
 
 const LivesPage = () => {
     return (

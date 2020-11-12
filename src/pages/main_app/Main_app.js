@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import Sidebargauche from './sidebar_gauche/Sidebargauche';
-import TopBarre from '../topBarre/TopBarre';
+import Sidebargauche from '../../components/sidebar_gauche/Sidebargauche';
+import TopBarre from '../../components/topBarre/TopBarre';
 import './Main_app.css';
-import PlayerBar from './player_bar/PlayerBar';
-
+import PlayerBar from '../../components/player_bar/PlayerBar';
+import ContainerApp from '../../components/containerApp/ContainerApp';
 
 class Main_app extends Component {
   render () {

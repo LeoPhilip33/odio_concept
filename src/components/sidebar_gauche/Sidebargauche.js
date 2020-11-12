@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
 // Imports d'images :
-import logo_noir_podkast from '../../img/logo_noir_podkast.svg';
-import Acceuil from '../../img/acceuil.svg';
-import playlists from '../../img/playlists.svg';
-import favoris from '../../img/favoris.svg';
-import lives from '../../img/lives.svg';
-import telechargements from '../../img/telechargements.svg';
+import logo_noir_podkast from '../img/logo_noir_podkast.svg';
+import Acceuil from '../img/acceuil.svg';
+import playlists from '../img/playlists.svg';
+import favoris from '../img/favoris.svg';
+import lives from '../img/lives.svg';
+import telechargements from '../img/telechargements.svg';
 
 import './Sidebargauche.css';
 import { Link } from 'react-router-dom';
@@ -26,7 +26,7 @@ class Sidebargauche extends Component {
         </div>
 
           <div className="txt_links_slidebar">
-            <Link to="/accueil">
+            <Link to="/accueil" className="decoration_none">
               <div className="flex_color_degrade_sidebargauche">
                   <div className="color_degrade_sidebargauche"></div>
                   <div>
@@ -36,7 +36,7 @@ class Sidebargauche extends Component {
               </div> 
             </Link>
             
-            <Link to="/playlists">
+            <Link to="/playlists" className="decoration_none">
               <div className="flex_color_degrade_sidebargauche">
                   <div className="color_degrade_sidebargauche"></div>
                   <div>
@@ -46,7 +46,7 @@ class Sidebargauche extends Component {
               </div>  
             </Link>
 
-            <Link to="/favoris">
+            <Link to="/favoris" className="decoration_none">
               <div className="flex_color_degrade_sidebargauche">
                   <div className="color_degrade_sidebargauche"></div>
                   <div>
@@ -56,7 +56,7 @@ class Sidebargauche extends Component {
               </div> 
             </Link>
 
-            <Link to="lives">
+            <Link to="lives" className="decoration_none">
               <div className="flex_color_degrade_sidebargauche">
                   <div className="color_degrade_sidebargauche"></div>
                   <div>
@@ -66,7 +66,7 @@ class Sidebargauche extends Component {
               </div> 
             </Link>
 
-            <Link to="telechargement">
+            <Link to="telechargement" className="decoration_none">
               <div className="flex_color_degrade_sidebargauche">
                   <div className="color_degrade_sidebargauche"></div>
                   <div>
