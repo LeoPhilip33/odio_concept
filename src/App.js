@@ -11,6 +11,8 @@ import LivesPage from './pages/Lives/';
 import PlaylistsPage from './pages/Playlists/';
 import TelechargementPage from './pages/Telechargement/';
 import ParametreComptePage from './pages/parametres/';
+import AbonnementPage from './pages/AbonnementPage/';
+
 
 
 
@@ -55,6 +57,9 @@ class App extends Component {
             </Route>
             <Route path="/parametre_compte">
               <ParametreComptePage />
+            </Route>
+            <Route path="/abonnement">
+              <AbonnementPage />
             </Route>
 
             <Route path="/">

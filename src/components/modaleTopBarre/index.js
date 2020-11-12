@@ -12,13 +12,14 @@ class ModaleTopBarre extends Component {
         </div>
         <hr></hr>
         <div>
-          <Link to="/parametre_compte" className="displayflex_modale_top_barre">
+          <Link to="/parametre_compte" className="displayflex_modale_top_barre decoration_none">
             <div> Paramètre du compte </div>
             <div className="fleche_param_compte_topbarre"> ></div>
           </Link>
-          <div className="color_deconnexion_param_compte">
+
+          <Link to="/connexion" className="color_deconnexion_param_compte decoration_none">
             Déconnexion
-          </div>
+          </Link>
           <hr></hr>
           <div>
           <div className="displayflex_modale_top_barre">
