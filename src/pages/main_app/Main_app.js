@@ -22,7 +22,6 @@ class Main_app extends Component {
         <div className="player_bar_style_main_app">
           <PlayerBar />
         </div>
-          <ContainerApp />
       </div>
     );
   }
