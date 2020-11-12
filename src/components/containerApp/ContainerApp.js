@@ -12,14 +12,14 @@ class ContainerApp extends Component {
   render () {
     return (
       <div className="container_ContainerApp">
-        <div class="width_container_app_page">
-          <h1 class="modification_title_container_app">
+        <div className="width_container_app_page">
+          <h1 className="modification_title_container_app">
             Les podcasts du moments
           </h1>
 
           <div>
 
-            <div class="flex_app_items_podcast">
+            <div className="flex_app_items_podcast">
 
             <div className="podcastStymeContainer">
               <img className="style_dollars_podcast_containerapp" src={logo_dollars} alt="Liker le podcast" ></img>
@@ -123,7 +123,7 @@ class ContainerApp extends Component {
             Nos recommandations
           </h1>
 
-          <div class="flex_app_items_podcast">
+          <div className="flex_app_items_podcast">
 
           <div className="podcastStymeContainer">
           <img className="style_dollars_podcast_containerapp" src={logo_dollars} alt="Liker le podcast" ></img>
@@ -217,7 +217,7 @@ class ContainerApp extends Component {
 
         </div>
 
-        <h1 class="modification_title_container_app"> Tous les thèmes </h1>
+        <h1 className="modification_title_container_app"> Tous les thèmes </h1>
         
         <ContainerTheme />
 

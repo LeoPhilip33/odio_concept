@@ -2,3 +2,62 @@
     margin-top: 70px;
     margin-left: 267px;
 }
+.containerparam_border{
+    display: flex;
+    border: 1px solid #707070;
+    width: 80%;
+    border-radius: 30px;
+}
+.center_containerparam_border{
+    display: flex;
+    justify-content: center;
+}
+.gauche_container_param{
+    width: 30%;
+}
+.droit_container_param{
+    text-align: start;
+    width: 70%;
+}
+.contouring_img_param{
+    border: 1px solid #707070;
+    margin: 20px;
+    border-radius: 7px;
+}
+.img_parametres_styles{
+    width: 65%;
+    padding: 30px;
+}
+.btn_monAbonnementParametres{
+    cursor: pointer;
+    background: linear-gradient(to right,#6A11CB, #375DF0);
+    color: white;
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.btn_monAbonnementParametres:hover{
+    cursor: pointer;
+    background: linear-gradient(to right,#6A11CB, #375DF0);
+    color: white;
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transform: scale(1.07);
+    transition: 0.3s;
+}
+.inputParametersclass{
+    display: flex;
+}
+.btn_parametersclass{
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.style_impit_parameterclass{
+    padding: 5px 15px;
+    margin-left: 5px;
+}

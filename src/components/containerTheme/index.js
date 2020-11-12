@@ -3,34 +3,34 @@ import React, { Component } from 'react';
 class ContainerTheme extends Component {
     render () {
       return (
-      <div class="margin_bottom_page_container_app">
+      <div className="margin_bottom_page_container_app">
 
-        <div class="flex_app_items_podcast_container">
-          <div class="theme_containerapp">
+        <div className="flex_app_items_podcast_container">
+          <div className="theme_containerapp">
           Thème
           </div>
-          <div class="theme_containerapp">
+          <div className="theme_containerapp">
           Thème
           </div>
-          <div class="theme_containerapp">
+          <div className="theme_containerapp">
           Thème
           </div>
-          <div class="theme_containerapp">
+          <div className="theme_containerapp">
           Thème
           </div>
         </div>
 
-        <div class="flex_app_items_podcast_container">
-          <div class="theme_containerapp">
+        <div className="flex_app_items_podcast_container">
+          <div className="theme_containerapp">
           Thème
           </div>
-          <div class="theme_containerapp">
+          <div className="theme_containerapp">
           Thème
           </div>
-          <div class="theme_containerapp">
+          <div className="theme_containerapp">
           Thème
           </div>
-          <div class="theme_containerapp">
+          <div className="theme_containerapp">
           Thème
           </div>
         </div>

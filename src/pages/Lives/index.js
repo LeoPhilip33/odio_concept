@@ -7,8 +7,8 @@ const LivesPage = () => {
     return (
         <div> 
             <Main_APP />
-            <div class="margin_top_containerTheme_live">
-                <h1 class="modification_title_container_app"> Tous les thèmes </h1>
+            <div className="margin_top_containerTheme_live">
+                <h1 className="modification_title_container_app"> Tous les thèmes </h1>
                 <ContainerTheme />
                 <ContainerTheme />
                 <ContainerTheme />

@@ -32,7 +32,7 @@ class Sidebargauche extends Component {
               <div className="flex_color_degrade_sidebargauche">
                   <div className="color_degrade_sidebargauche"></div>
                   <div>
-                    <img class="style_img_sidebargauche" src={Acceuil} alt="Acceuil" ></img>
+                    <img className="style_img_sidebargauche" src={Acceuil} alt="Acceuil" ></img>
                   </div>
                   <div>Accueil</div>
               </div> 
@@ -42,7 +42,7 @@ class Sidebargauche extends Component {
               <div className="flex_color_degrade_sidebargauche">
                   <div className="color_degrade_sidebargauche"></div>
                   <div>
-                    <img class="style_img_sidebargauche" src={playlists} alt="Playlists" ></img>
+                    <img className="style_img_sidebargauche" src={playlists} alt="Playlists" ></img>
                   </div>
                   <div>Playlists</div>
               </div>  
@@ -52,7 +52,7 @@ class Sidebargauche extends Component {
               <div className="flex_color_degrade_sidebargauche">
                   <div className="color_degrade_sidebargauche"></div>
                   <div>
-                    <img class="style_img_sidebargauche" src={favoris} alt="Favoris" ></img>
+                    <img className="style_img_sidebargauche" src={favoris} alt="Favoris" ></img>
                   </div>
                   <div>Favoris</div>
               </div> 
@@ -62,7 +62,7 @@ class Sidebargauche extends Component {
               <div className="flex_color_degrade_sidebargauche">
                   <div className="color_degrade_sidebargauche"></div>
                   <div>
-                    <img class="style_img_sidebargauche" src={lives} alt="Lives" ></img>
+                    <img className="style_img_sidebargauche" src={lives} alt="Lives" ></img>
                   </div>
                   <div>Lives</div>
               </div> 
@@ -72,7 +72,7 @@ class Sidebargauche extends Component {
               <div className="flex_color_degrade_sidebargauche">
                   <div className="color_degrade_sidebargauche"></div>
                   <div>
-                    <img class="style_img_sidebargauche" src={telechargements} alt="Téléchargements" ></img>
+                    <img className="style_img_sidebargauche" src={telechargements} alt="Téléchargements" ></img>
                   </div>
                   <div>Téléchargements</div>
               </div> 
