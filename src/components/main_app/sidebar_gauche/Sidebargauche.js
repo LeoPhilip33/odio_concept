@@ -26,7 +26,7 @@ class Sidebargauche extends Component {
         </div>
 
           <div className="txt_links_slidebar">
-            <Link to="/home">
+            <Link to="/accueil">
               <div className="flex_color_degrade_sidebargauche">
                   <div className="color_degrade_sidebargauche"></div>
                   <div>
