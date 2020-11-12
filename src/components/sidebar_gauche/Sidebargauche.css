@@ -29,6 +29,9 @@
     height: 35px;
     background: linear-gradient(to right,#6A11CB, #375DF0);
 }
+.paddingmodify_repaire_problems_sidebargauche{
+    padding:7px;
+}
 .flex_color_degrade_sidebargauche{
     cursor: pointer;
     display: flex;

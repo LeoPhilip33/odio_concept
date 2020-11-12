@@ -21,7 +21,9 @@ class Sidebargauche extends Component {
           <div className="abonnement_premium">
             <div className="p_modify_slidebar"> Vous utiliser la version gratuite. </div>
             <div className="hr_modify_sidebar" ></div>
-            <Link to="/abonnement" className="p_modify_slidebar"> S'ABONNER </Link>
+            <div className="paddingmodify_repaire_problems_sidebargauche">
+              <Link to="/abonnement" className="p_modify_slidebar"> S'ABONNER </Link>
+            </div>
           </div>
         </div>
 
