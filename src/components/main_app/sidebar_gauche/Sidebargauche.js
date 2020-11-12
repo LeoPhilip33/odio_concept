@@ -9,6 +9,7 @@ import lives from '../../img/lives.svg';
 import telechargements from '../../img/telechargements.svg';
 
 import './Sidebargauche.css';
+import { Link } from 'react-router-dom';
 
 class Sidebargauche extends Component {
   render () {
@@ -25,46 +26,57 @@ class Sidebargauche extends Component {
         </div>
 
           <div className="txt_links_slidebar">
-            <div className="flex_color_degrade_sidebargauche">
-                <div className="color_degrade_sidebargauche"></div>
-                <div>
-                  <img class="style_img_sidebargauche" src={Acceuil} alt="Revenir à l'acceuil" ></img>
-                </div>
-                <div>Accueil</div>
-            </div> 
+            <Link to="/home">
+              <div className="flex_color_degrade_sidebargauche">
+                  <div className="color_degrade_sidebargauche"></div>
+                  <div>
+                    <img class="style_img_sidebargauche" src={Acceuil} alt="Acceuil" ></img>
+                  </div>
+                  <div>Accueil</div>
+              </div> 
+            </Link>
+            
+            <Link to="/playlists">
+              <div className="flex_color_degrade_sidebargauche">
+                  <div className="color_degrade_sidebargauche"></div>
+                  <div>
+                    <img class="style_img_sidebargauche" src={playlists} alt="Playlists" ></img>
+                  </div>
+                  <div>Playlists</div>
+              </div>  
+            </Link>
 
-            <div className="flex_color_degrade_sidebargauche">
-                <div className="color_degrade_sidebargauche"></div>
-                <div>
-                  <img class="style_img_sidebargauche" src={playlists} alt="Revenir à l'acceuil" ></img>
-                </div>
-                <div>Playlists</div>
-            </div>  
+            <Link to="/favoris">
+              <div className="flex_color_degrade_sidebargauche">
+                  <div className="color_degrade_sidebargauche"></div>
+                  <div>
+                    <img class="style_img_sidebargauche" src={favoris} alt="Favoris" ></img>
+                  </div>
+                  <div>Favoris</div>
+              </div> 
+            </Link>
 
-            <div className="flex_color_degrade_sidebargauche">
-                <div className="color_degrade_sidebargauche"></div>
-                <div>
-                  <img class="style_img_sidebargauche" src={favoris} alt="Revenir à l'acceuil" ></img>
-                </div>
-                <div>Favoris</div>
-            </div> 
+            <Link to="lives">
+              <div className="flex_color_degrade_sidebargauche">
+                  <div className="color_degrade_sidebargauche"></div>
+                  <div>
+                    <img class="style_img_sidebargauche" src={lives} alt="Lives" ></img>
+                  </div>
+                  <div>Lives</div>
+              </div> 
+            </Link>
 
-            <div className="flex_color_degrade_sidebargauche">
-                <div className="color_degrade_sidebargauche"></div>
-                <div>
-                  <img class="style_img_sidebargauche" src={lives} alt="Revenir à l'acceuil" ></img>
-                </div>
-                <div>Lives</div>
-            </div> 
-
-            <div className="flex_color_degrade_sidebargauche">
-                <div className="color_degrade_sidebargauche"></div>
-                <div>
-                  <img class="style_img_sidebargauche" src={telechargements} alt="Revenir à l'acceuil" ></img>
-                </div>
-                <div>Téléchargements</div>
-            </div> 
+            <Link to="telechargement">
+              <div className="flex_color_degrade_sidebargauche">
+                  <div className="color_degrade_sidebargauche"></div>
+                  <div>
+                    <img class="style_img_sidebargauche" src={telechargements} alt="Téléchargements" ></img>
+                  </div>
+                  <div>Téléchargements</div>
+              </div> 
+            </Link>
           </div>
+          
           
       </div>
     );

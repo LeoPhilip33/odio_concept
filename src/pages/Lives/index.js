@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Lives = () => {
+const LivesPage = () => {
     return (
         <div> 
             Tu es sur la page Lives
@@ -8,4 +8,4 @@ const Lives = () => {
     )
 }
 
-export default Lives;
+export default LivesPage;

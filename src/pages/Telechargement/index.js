@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-const Telechargement = () => {
+const TelechargementPage = () => {
     return (
         <div> 
             Tu es sur la page téléchargement
@@ -8,4 +8,4 @@ const Telechargement = () => {
     )
 }
 
-export default Telechargement;
+export default TelechargementPage;

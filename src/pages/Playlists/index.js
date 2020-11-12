@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Playlists = () => {
+const PlaylistsPage = () => {
     return (
         <div> 
-            Tu es sur la page Playlists
+            blabla
         </div> 
     )
 }
 
-export default Playlists;
+export default PlaylistsPage;

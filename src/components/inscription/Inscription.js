@@ -2,12 +2,6 @@ import React, { Component } from 'react';
 import './Inscription.css';
 import logo_blanc_podkast from '../img/logo_blanc_podkast.svg';
 import BtnFbGg from '../BtnFbGg/BtnFbGg';
-
-
-
-
-
-import Cars from '../test/Cars';
 import { Link } from 'react-router-dom';
 import Button from '../Button';
 

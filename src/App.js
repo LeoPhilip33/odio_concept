@@ -5,7 +5,16 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 // Importation des composants :
 import RegistrationPage from './pages/Registration';
 import LoginPage from './pages/Login';
-import HomPage from './pages/Home/';
+import HomePage from './pages/Home/';
+import FavorisPage from './pages/Favoris/';
+import LivesPage from './pages/Lives/';
+import PlaylistsPage from './pages/Playlists/';
+import TelechargementPage from './pages/Telechargement/';
+
+
+
+
+
 
 class App extends Component {
 
@@ -28,11 +37,24 @@ class App extends Component {
               <LoginPage />
             </Route>
             <Route path="/accueil">
-              <HomPage />
+              <HomePage />
+            </Route>
+            <Route path="/favoris">
+              <FavorisPage />
+            </Route>
+            <Route path="/playlists">
+              <PlaylistsPage />
+            </Route>
+            <Route path="/lives">
+              <LivesPage />
+            </Route>
+            <Route path="/telechargement">
+              <TelechargementPage />
             </Route>
             <Route path="/">
               <RegistrationPage />
             </Route>
+            
           </Switch>
         </BrowserRouter>
 

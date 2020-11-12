@@ -3,6 +3,7 @@ import './Connexion.css';
 import logo_blanc_podkast from '../img/logo_blanc_podkast.svg';
 import BtnFbGg from '../BtnFbGg/BtnFbGg';
 import Button from '../Button';
+import { Link } from 'react-router-dom';
 
 
 class Connexion extends Component {
@@ -26,7 +27,9 @@ class Connexion extends Component {
                 </div>
                 <p className="text_style_connexion bold_text_style_connexion"> Mot de passe oublié ?</p>
                 <p className="text_style_connexion"> Vous ne possédez pas encore de compte sur Odio ?</p>
-                <p className="text_style_connexion bold_text_style_connexion"> Inscrivez-vous !</p>
+                <Link to="/inscription" className="text_style_connexion bold_text_style_connexion">
+                  Inscivez-vous !
+                </Link>
               </div>
           </div>
         </div>
