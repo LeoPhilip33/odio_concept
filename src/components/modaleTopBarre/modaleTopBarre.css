@@ -1,0 +1,45 @@
+.container_modale_TopBare{
+    background-color: white;
+    border: 1px solid black;
+    width: 250px;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+}
+.blod_user_name_top_barre{
+    font-weight: bold;
+}
+.displayflex_modale_top_barre{
+    cursor: pointer;
+    display:flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.color_deconnexion_param_compte{
+    color: red;
+    display: flex;
+    margin-left: 15px;
+}
+
+.toggle_modale{
+    display: flex;
+    align-items: center;
+    border: 1px solid #171717;
+    width: 40px;
+    height: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.toggle_modale_styled{
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: #171717;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.top_espacement_daltonienMode{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

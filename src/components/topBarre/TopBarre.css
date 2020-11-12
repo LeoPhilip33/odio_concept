@@ -30,6 +30,7 @@
 }
 
 .dim_logo_topbarre{
+    cursor: pointer;
     width: 30px;
     height: 30px;
     margin-left: 5px;

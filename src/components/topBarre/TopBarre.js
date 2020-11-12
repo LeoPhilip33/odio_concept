@@ -4,6 +4,8 @@ import React, { Component } from 'react';
 import logo_user from '../img/logo_user.svg';
 import notifications from '../img/notifications.svg';
 
+import ModaleTopBarre from '../modaleTopBarre';
+
 import './TopBarre.css'; 
 
 class TopBarre extends Component {
@@ -15,10 +17,17 @@ class TopBarre extends Component {
                 <input class="searchbar_topbar" type="text" placeholder="Recherche d'un podcast" ></input>
             </div>
             <div className="logo_searchbar_topbar" >
-              <img class="dim_logo_topbarre" src={notifications} alt="Notifications" ></img>
-              <img class="dim_logo_topbarre" src={logo_user} alt="Utilisateur" ></img>
+              <div>
+                <img class="dim_logo_topbarre" src={notifications} alt="Notifications" ></img>
+              </div>
+              <div>
+                <img class="dim_logo_topbarre" src={logo_user} alt="Utilisateur" ></img>
+                <ModaleTopBarre />
+              </div>
             </div>
         </div>
+        
+        
       </div>
     );
   }
