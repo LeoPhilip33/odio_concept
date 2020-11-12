@@ -10,6 +10,8 @@ import FavorisPage from './pages/Favoris/';
 import LivesPage from './pages/Lives/';
 import PlaylistsPage from './pages/Playlists/';
 import TelechargementPage from './pages/Telechargement/';
+import ParametreComptePage from './pages/parametres/';
+
 
 
 
@@ -51,6 +53,10 @@ class App extends Component {
             <Route path="/telechargement">
               <TelechargementPage />
             </Route>
+            <Route path="/parametre_compte">
+              <ParametreComptePage />
+            </Route>
+
             <Route path="/">
               <RegistrationPage />
             </Route>

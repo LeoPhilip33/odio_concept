@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Parametres = () => {
+const ParametreComptePage = () => {
     return (
         <div> 
             Paramètres
@@ -8,4 +8,4 @@ const Parametres = () => {
     )
 }
 
-export default Parametres;
+export default ParametreComptePage;
