@@ -1,9 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-  <g id="logo_dollars" data-name="logo dollars" transform="translate(-0.184 -0.183)">
-    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(0.184 0.183)" fill="#171717" stroke="#707070" stroke-width="1">
-      <circle cx="16" cy="16" r="16" stroke="none"/>
-      <circle cx="16" cy="16" r="15.5" fill="none"/>
-    </g>
-    <path id="Icon_material-attach-money" data-name="Icon material-attach-money" d="M15.678,13.435c-2.568-.667-3.393-1.357-3.393-2.432,0-1.233,1.142-2.092,3.054-2.092,2.013,0,2.76.961,2.828,2.375h2.5a4.509,4.509,0,0,0-3.631-4.309V4.5H13.642V6.943c-2.194.475-3.959,1.9-3.959,4.083,0,2.613,2.16,3.913,5.316,4.671,2.828.679,3.393,1.674,3.393,2.726,0,.78-.554,2.025-3.054,2.025-2.33,0-3.246-1.041-3.371-2.375H9.48c.136,2.477,1.991,3.868,4.162,4.332v2.454h3.393V22.427c2.206-.418,3.959-1.7,3.959-4.015C20.994,15.2,18.246,14.1,15.678,13.435Z" transform="translate(1.229 2.435)" fill="#fff" stroke="#000" stroke-width="1"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><style>.cls-1{fill:#fcfcfc;}</style></defs><title>Fichier 1</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><g id="logo_dollars" data-name="logo dollars"><g id="Groupe_34" data-name="Groupe 34"><path class="cls-1" d="M16,0A16,16,0,1,0,32,16,16,16,0,0,0,16,0Zm2.08,24.68v2.43H14.69V24.66c-2.17-.47-4-1.86-4.17-4.34H13c.13,1.34,1,2.38,3.37,2.38,2.5,0,3.06-1.24,3.06-2,0-1.06-.57-2.05-3.4-2.73-3.15-.76-5.31-2.06-5.31-4.67,0-2.19,1.76-3.61,4-4.09V6.75h3.39V9.23a4.5,4.5,0,0,1,3.63,4.31h-2.5c-.07-1.42-.81-2.38-2.83-2.38s-3,.86-3,2.1c0,1.07.83,1.76,3.39,2.43s5.32,1.76,5.32,5C22,23,20.29,24.26,18.08,24.68Z"/></g></g></g></g></svg>

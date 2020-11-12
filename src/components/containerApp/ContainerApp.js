@@ -4,6 +4,8 @@ import './ContainerApp.css';
 
 import logoCoeur from '../img/coeur.svg';
 import logo_dollars from '../img/logo_dollars.svg';
+import etoile from '../img/etoile.png';
+
 import ContainerTheme from '../containerTheme/';
 
 class ContainerApp extends Component {
@@ -32,6 +34,24 @@ class ContainerApp extends Component {
                     </div>
                   </div>
                 </div>
+                <img className="etoile" src={etoile}/>
+              </div>
+
+
+              <div className="podcastStymeContainer">
+              <img className="style_dollars_podcast_containerapp" src={logo_dollars} alt="Liker le podcast" ></img>
+                <div className="titrepodcast_nom">
+                  <div className="disp_flex_titrepodcast_nom">
+                    <div className="titlestyle_modif_txt">
+                      <div className="titrepodcast_containerApp">Titre du podcast</div>
+                      <div className="nom_podcasteur_containerApp">Nom du podcasteur</div>
+                    </div>
+                    <div className="img_positionnement_containerapp" >
+                    <img className="style_like_podcast_containerapp" src={logoCoeur} alt="Liker le podcast" ></img>
+                    </div>
+                  </div>
+                </div>
+                <img className="etoile" src={etoile}/>
               </div>
 
               <div className="podcastStymeContainer">
@@ -47,36 +67,39 @@ class ContainerApp extends Component {
                     </div>
                   </div>
                 </div>
+                <img className="etoile" src={etoile}/>
               </div>
 
               <div className="podcastStymeContainer">
-              <img className="style_dollars_podcast_containerapp" src={logo_dollars} alt="Liker le podcast" ></img>
-                <div className="titrepodcast_nom">
-                  <div className="disp_flex_titrepodcast_nom">
-                    <div className="titlestyle_modif_txt">
-                      <div className="titrepodcast_containerApp">Titre du podcast</div>
-                      <div className="nom_podcasteur_containerApp">Nom du podcasteur</div>
-                    </div>
-                    <div className="img_positionnement_containerapp" >
-                    <img className="style_like_podcast_containerapp" src={logoCoeur} alt="Liker le podcast" ></img>
+                <img className="style_dollars_podcast_containerapp" src={logo_dollars} alt="Liker le podcast" ></img>
+                  <div className="titrepodcast_nom">
+                    <div className="disp_flex_titrepodcast_nom">
+                      <div className="titlestyle_modif_txt">
+                        <div className="titrepodcast_containerApp">Titre du podcast</div>
+                        <div className="nom_podcasteur_containerApp">Nom du podcasteur</div>
+                      </div>
+                        <div className="img_positionnement_containerapp" >
+                      <img className="style_like_podcast_containerapp" src={logoCoeur} alt="Liker le podcast" ></img>
                     </div>
                   </div>
                 </div>
+                <img className="etoile" src={etoile}/>
               </div>
 
               <div className="podcastStymeContainer">
-              <img className="style_dollars_podcast_containerapp" src={logo_dollars} alt="Liker le podcast" ></img>
-                <div className="titrepodcast_nom">
-                  <div className="disp_flex_titrepodcast_nom">
-                    <div className="titlestyle_modif_txt">
-                      <div className="titrepodcast_containerApp">Titre du podcast</div>
-                      <div className="nom_podcasteur_containerApp">Nom du podcasteur</div>
-                    </div>
-                    <div className="img_positionnement_containerapp" >
-                    <img className="style_like_podcast_containerapp" src={logoCoeur} alt="Liker le podcast" ></img>
+                <img className="style_dollars_podcast_containerapp" src={logo_dollars} alt="Liker le podcast" ></img>
+                  <div className="titrepodcast_nom">
+                    <div className="disp_flex_titrepodcast_nom">
+                      <div className="titlestyle_modif_txt">
+                        <div className="titrepodcast_containerApp">Titre du podcast</div>
+                        <div className="nom_podcasteur_containerApp">Nom du podcasteur</div>
+                      </div>
+                        <div className="img_positionnement_containerapp" >
+                      <img className="style_like_podcast_containerapp" src={logoCoeur} alt="Liker le podcast" ></img>
                     </div>
                   </div>
                 </div>
+                <img className="etoile" src={etoile}/>
               </div>
 
             </div>
@@ -103,6 +126,7 @@ class ContainerApp extends Component {
                 </div>
               </div>
             </div>
+            <img className="etoile" src={etoile}/>
           </div>
 
           <div className="podcastStymeContainer">
@@ -118,6 +142,7 @@ class ContainerApp extends Component {
                 </div>
               </div>
             </div>
+            <img className="etoile" src={etoile}/>
           </div>
 
           <div className="podcastStymeContainer">
@@ -133,6 +158,7 @@ class ContainerApp extends Component {
                 </div>
               </div>
             </div>
+            <img className="etoile" src={etoile}/>
           </div>
 
           <div className="podcastStymeContainer">
@@ -148,6 +174,23 @@ class ContainerApp extends Component {
                     </div>
                   </div>
                 </div>
+                <img className="etoile" src={etoile}/>
+              </div>
+
+              <div className="podcastStymeContainer">
+              <img className="style_dollars_podcast_containerapp" src={logo_dollars} alt="Liker le podcast" ></img>
+                <div className="titrepodcast_nom">
+                  <div className="disp_flex_titrepodcast_nom">
+                    <div className="titlestyle_modif_txt">
+                      <div className="titrepodcast_containerApp">Titre du podcast</div>
+                      <div className="nom_podcasteur_containerApp">Nom du podcasteur</div>
+                    </div>
+                    <div className="img_positionnement_containerapp" >
+                    <img className="style_like_podcast_containerapp" src={logoCoeur} alt="Liker le podcast" ></img>
+                    </div>
+                  </div>
+                </div>
+                <img className="etoile" src={etoile}/>
               </div>
 
         </div>
