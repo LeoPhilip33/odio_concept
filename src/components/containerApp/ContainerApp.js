@@ -34,7 +34,9 @@ class ContainerApp extends Component {
                     </div>
                   </div>
                 </div>
-                <img className="etoile" src={etoile}/>
+                <div className="container_etoile_size_modifications">
+                  <img className="etoile" src={etoile}/>
+                </div>
               </div>
 
 
@@ -51,7 +53,11 @@ class ContainerApp extends Component {
                     </div>
                   </div>
                 </div>
-                <img className="etoile" src={etoile}/>
+
+                <div className="container_etoile_size_modifications">
+                  <img className="etoile" src={etoile}/>
+                </div>
+                
               </div>
 
               <div className="podcastStymeContainer">
@@ -67,7 +73,9 @@ class ContainerApp extends Component {
                     </div>
                   </div>
                 </div>
-                <img className="etoile" src={etoile}/>
+                <div className="container_etoile_size_modifications">
+                  <img className="etoile" src={etoile}/>
+                </div>
               </div>
 
               <div className="podcastStymeContainer">
@@ -83,7 +91,9 @@ class ContainerApp extends Component {
                     </div>
                   </div>
                 </div>
-                <img className="etoile" src={etoile}/>
+                <div className="container_etoile_size_modifications">
+                  <img className="etoile" src={etoile}/>
+                </div>
               </div>
 
               <div className="podcastStymeContainer">
@@ -99,7 +109,9 @@ class ContainerApp extends Component {
                     </div>
                   </div>
                 </div>
-                <img className="etoile" src={etoile}/>
+                <div className="container_etoile_size_modifications">
+                  <img className="etoile" src={etoile}/>
+                </div>
               </div>
 
             </div>
@@ -126,7 +138,9 @@ class ContainerApp extends Component {
                 </div>
               </div>
             </div>
-            <img className="etoile" src={etoile}/>
+            <div className="container_etoile_size_modifications">
+              <img className="etoile" src={etoile}/>
+            </div>
           </div>
 
           <div className="podcastStymeContainer">
@@ -142,7 +156,9 @@ class ContainerApp extends Component {
                 </div>
               </div>
             </div>
-            <img className="etoile" src={etoile}/>
+            <div className="container_etoile_size_modifications">
+              <img className="etoile" src={etoile}/>
+            </div>
           </div>
 
           <div className="podcastStymeContainer">
@@ -158,7 +174,9 @@ class ContainerApp extends Component {
                 </div>
               </div>
             </div>
-            <img className="etoile" src={etoile}/>
+            <div className="container_etoile_size_modifications">
+              <img className="etoile" src={etoile}/>
+            </div>
           </div>
 
           <div className="podcastStymeContainer">
@@ -174,7 +192,9 @@ class ContainerApp extends Component {
                     </div>
                   </div>
                 </div>
-                <img className="etoile" src={etoile}/>
+                <div className="container_etoile_size_modifications">
+                  <img className="etoile" src={etoile}/>
+                </div>
               </div>
 
               <div className="podcastStymeContainer">
@@ -190,7 +210,9 @@ class ContainerApp extends Component {
                     </div>
                   </div>
                 </div>
-                <img className="etoile" src={etoile}/>
+                <div className="container_etoile_size_modifications">
+                  <img className="etoile" src={etoile}/>
+                </div>
               </div>
 
         </div>
