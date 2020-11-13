@@ -36,7 +36,7 @@ class ContainerPlaylists extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt=""/>
                 </div>
               </div>
 
@@ -56,7 +56,7 @@ class ContainerPlaylists extends Component {
                 </div>
 
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt=""/>
                 </div>
                 
               </div>
@@ -75,7 +75,7 @@ class ContainerPlaylists extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt=""/>
                 </div>
               </div>
 
@@ -92,7 +92,7 @@ class ContainerPlaylists extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt=""/>
                 </div>
               </div>
 
@@ -110,7 +110,7 @@ class ContainerPlaylists extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt=""/>
                 </div>
               </div>
 
@@ -141,7 +141,7 @@ class ContainerPlaylists extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt=""/>
                 </div>
               </div>
 
@@ -161,7 +161,7 @@ class ContainerPlaylists extends Component {
                 </div>
 
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt=""/>
                 </div>
                 
               </div>
@@ -180,7 +180,7 @@ class ContainerPlaylists extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt=""/>
                 </div>
               </div>
 
@@ -197,7 +197,7 @@ class ContainerPlaylists extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt=""/>
                 </div>
               </div>
 
@@ -215,7 +215,7 @@ class ContainerPlaylists extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt=""/>
                 </div>
               </div>
 
@@ -246,7 +246,7 @@ class ContainerPlaylists extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt=""/>
                 </div>
               </div>
 
@@ -266,7 +266,7 @@ class ContainerPlaylists extends Component {
                 </div>
 
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt=""/>
                 </div>
                 
               </div>
@@ -285,7 +285,7 @@ class ContainerPlaylists extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt=""/>
                 </div>
               </div>
 
@@ -302,7 +302,7 @@ class ContainerPlaylists extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt=""/>
                 </div>
               </div>
 
@@ -320,7 +320,7 @@ class ContainerPlaylists extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt=""/>
                 </div>
               </div>
 
@@ -349,7 +349,7 @@ class ContainerPlaylists extends Component {
               </div>
             </div>
             <div className="container_etoile_size_modifications">
-              <img className="etoile" src={etoile}/>
+              <img className="etoile" src={etoile} alt=""/>
             </div>
           </div>
 
@@ -367,7 +367,7 @@ class ContainerPlaylists extends Component {
               </div>
             </div>
             <div className="container_etoile_size_modifications">
-              <img className="etoile" src={etoile}/>
+              <img className="etoile" src={etoile} alt=""/>
             </div>
           </div>
 
@@ -385,7 +385,7 @@ class ContainerPlaylists extends Component {
               </div>
             </div>
             <div className="container_etoile_size_modifications">
-              <img className="etoile" src={etoile}/>
+              <img className="etoile" src={etoile} alt=""/>
             </div>
           </div>
 
@@ -402,7 +402,7 @@ class ContainerPlaylists extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt=""/>
                 </div>
               </div>
 
@@ -419,7 +419,7 @@ class ContainerPlaylists extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt=""/>
                 </div>
               </div>
         </div>      
