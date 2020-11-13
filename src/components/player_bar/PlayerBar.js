@@ -11,7 +11,6 @@ import next from '../img/icon_right.svg';
 import loop from '../img/icon_loop.svg';
 import play from '../img/icon_play.svg';
 import random from '../img/icon_random.svg';
-import pause from '../img/icon_pause.svg';
 
 
 
