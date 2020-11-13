@@ -5,6 +5,12 @@ import './modaleTopBarre.css';
 
 class ModaleTopBarre extends Component {
   render () {
+
+    let className = 'menu';
+    if (this.props.isActive) {
+      className += ' menu-active';
+    }
+
     return (
       <div className="container_modale_TopBare">
         <div className="blod_user_name_top_barre">
@@ -23,7 +29,7 @@ class ModaleTopBarre extends Component {
           <hr></hr>
           <div>
           <div className="displayflex_modale_top_barre">
-            <div>Mode Sombre</div>
+            <div className={className}>Mode Sombre</div>
              <div>
 
               <div className="toggle_modale">

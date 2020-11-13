@@ -9,10 +9,10 @@ const Button = (props) => {
     }
     console.log(props)
     return (
-            <Link to={props.to} className={className}>
-                {props.children}
-                
-            </Link> 
+        <Link to={props.to} className={className}>
+            {props.children}
+            
+        </Link> 
     )
 
 }
