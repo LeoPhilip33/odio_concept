@@ -3,7 +3,6 @@ import Sidebargauche from '../../components/sidebar_gauche/Sidebargauche';
 import TopBarre from '../../components/topBarre/TopBarre';
 import './Main_app.css';
 import PlayerBar from '../../components/player_bar/PlayerBar';
-import ContainerApp from '../../components/containerApp/ContainerApp';
 
 class Main_app extends Component {
   render () {

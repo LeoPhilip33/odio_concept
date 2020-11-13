@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import MainAPP from '../main_app/Main_app';
 import ContainerApp from '../../components/containerApp/ContainerApp';
 

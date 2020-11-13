@@ -4,7 +4,7 @@ import style from './style.module.css';
 
 const Button = (props) => {
     let className = style.button;
-    if (props.color=='green') { 
+    if (props.color === 'green') { 
         className = className + " " + style["button-green"]
     }
     console.log(props)

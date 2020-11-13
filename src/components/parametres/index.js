@@ -20,7 +20,7 @@ class Parametres extends Component {
                 
                         <div className="gauche_container_param">
                             <div className="contouring_img_param">
-                                <img className="img_parametres_styles" src={image_parametres}/>
+                                <img className="img_parametres_styles" src={image_parametres}  alt="natation étoiles"/>
                             </div>
                         </div>
 
@@ -54,12 +54,12 @@ class Parametres extends Component {
 
                             <div className="flex_btn_fb_google_parametres">
                                 <div className="btn_fb_google_parametres">
-                                    <img className="icon_fb_gg_parametre" src={icon_fb}/>
+                                    <img className="icon_fb_gg_parametre" src={icon_fb} alt="natation étoiles"/>
                                     Associer le compte à Facebook
                                 </div>
 
                                 <div className="btn_fb_google_parametres">
-                                    <img className="icon_fb_gg_parametre" src={icon_google}/>
+                                    <img className="icon_fb_gg_parametre" src={icon_google} alt="natation étoiles"/>
                                     Associer le compte à Google
                                 </div>
                             </div>
