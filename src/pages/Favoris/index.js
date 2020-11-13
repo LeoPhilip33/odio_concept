@@ -1,5 +1,5 @@
 import React from 'react'
-import Main_APP from '../main_app/Main_app'
+import Main_APP from '../MainApp/MainApp'
 import ContainerFavoris from '../../components/ContainerFavoris/ContainerFavoris';
 
 
