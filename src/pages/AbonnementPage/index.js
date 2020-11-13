@@ -1,5 +1,5 @@
 import React from 'react'
-import Main_APP from '../main_app/Main_app'
+import MainApp from '../MainApp/MainApp'
 import './AbonnementPage.css';
 import CheckboxVide from '../../components/CheckboxVide';
 import CheckboxRemplis from '../../components/CheckboxRemplis';
@@ -10,7 +10,7 @@ import Return from '../../components/img/return_arrow.svg'
 const AbonnementPage = () => {
     return (
         <div> 
-            <Main_APP/>
+            <MainApp/>
                 <div className="ContainerAbonnementPage">
                     <div className="box_flex"> 
                         <div className="style_retune">

@@ -1,10 +1,10 @@
 import React from 'react';
-import Main_APP from '../main_app/Main_app'
+import MainApp from '../MainApp/MainApp'
 
 const TelechargementPage = () => {
     return (
         <div> 
-            <Main_APP />
+            <MainApp />
         </div> 
     )
 }
