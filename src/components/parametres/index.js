@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import './parametres.css';
 import image_parametres from '../img/image_parametres.svg';
-
 import icon_fb from '../img/icon_fb.svg';
 import icon_google from '../img/icon_google.svg';
-
 import { Link } from 'react-router-dom';
+import './parametres.css';
+
 
 class Parametres extends Component {
   render () {
