@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import './ContainerFavoris.css'; 
 
 import logoCoeur from '../img/coeur_plein.svg';
-import logo_dollars from '../img/logo_dollars.svg';
 import etoile from '../img/etoile.png';
 
 class ContainerFavoris extends Component {
@@ -33,7 +32,7 @@ class ContainerFavoris extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt="etoiles"/>
                 </div>
               </div>
 
@@ -53,7 +52,7 @@ class ContainerFavoris extends Component {
                 </div>
 
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt="etoiles"/>
                 </div>
                 
               </div>
@@ -72,7 +71,7 @@ class ContainerFavoris extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt="etoiles"/>
                 </div>
               </div>
 
@@ -89,7 +88,7 @@ class ContainerFavoris extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt="etoiles"/>
                 </div>
               </div>
 
@@ -107,7 +106,7 @@ class ContainerFavoris extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt="etoiles"/>
                 </div>
               </div>
 
@@ -136,7 +135,7 @@ class ContainerFavoris extends Component {
               </div>
             </div>
             <div className="container_etoile_size_modifications">
-              <img className="etoile" src={etoile}/>
+              <img className="etoile" src={etoile} alt="etoiles"/>
             </div>
           </div>
 
@@ -154,7 +153,7 @@ class ContainerFavoris extends Component {
               </div>
             </div>
             <div className="container_etoile_size_modifications">
-              <img className="etoile" src={etoile}/>
+              <img className="etoile" src={etoile} alt="etoiles"/>
             </div>
           </div>
 
@@ -172,7 +171,7 @@ class ContainerFavoris extends Component {
               </div>
             </div>
             <div className="container_etoile_size_modifications">
-              <img className="etoile" src={etoile}/>
+              <img className="etoile" src={etoile} alt="etoiles"/>
             </div>
           </div>
 
@@ -189,7 +188,7 @@ class ContainerFavoris extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt="etoiles"/>
                 </div>
               </div>
 
@@ -206,7 +205,7 @@ class ContainerFavoris extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt="etoiles"/>
                 </div>
               </div>
         </div>      

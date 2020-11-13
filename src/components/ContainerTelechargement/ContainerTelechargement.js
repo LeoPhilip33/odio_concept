@@ -3,9 +3,7 @@ import React, { Component } from 'react';
 import './ContainerTelechargement.css'; 
 
 import logoCoeur from '../img/coeur.svg';
-import logo_dollars from '../img/logo_dollars.svg';
 import etoile from '../img/etoile.png';
-import dell from '../img/dell.svg';
 
 
 
@@ -38,7 +36,7 @@ class ContainerTelechargement extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt="etoiles"/>
                 </div>
               </div>
 
@@ -59,7 +57,7 @@ class ContainerTelechargement extends Component {
                 </div>
 
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt="etoiles"/>
                 </div>
                 
               </div>
@@ -79,7 +77,7 @@ class ContainerTelechargement extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt="etoiles"/>
                 </div>
               </div>
 
@@ -97,7 +95,7 @@ class ContainerTelechargement extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt="etoiles"/>
                 </div>
               </div>
 
@@ -116,7 +114,7 @@ class ContainerTelechargement extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt="etoiles"/>
                 </div>
               </div>
 
@@ -146,7 +144,7 @@ class ContainerTelechargement extends Component {
               </div>
             </div>
             <div className="container_etoile_size_modifications">
-              <img className="etoile" src={etoile}/>
+              <img className="etoile" src={etoile} alt="etoiles"/>
             </div>
           </div>
 
@@ -165,7 +163,7 @@ class ContainerTelechargement extends Component {
               </div>
             </div>
             <div className="container_etoile_size_modifications">
-              <img className="etoile" src={etoile}/>
+              <img className="etoile" src={etoile} alt="etoiles"/>
             </div>
           </div>
 
@@ -184,7 +182,7 @@ class ContainerTelechargement extends Component {
               </div>
             </div>
             <div className="container_etoile_size_modifications">
-              <img className="etoile" src={etoile}/>
+              <img className="etoile" src={etoile} alt="etoiles"/>
             </div>
           </div>
 
@@ -203,7 +201,7 @@ class ContainerTelechargement extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt="etoiles"/>
                 </div>
               </div>
 
@@ -221,7 +219,7 @@ class ContainerTelechargement extends Component {
                   </div>
                 </div>
                 <div className="container_etoile_size_modifications">
-                  <img className="etoile" src={etoile}/>
+                  <img className="etoile" src={etoile} alt="etoiles"/>
                 </div>
               </div>
         </div>      
