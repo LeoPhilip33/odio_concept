@@ -5,6 +5,7 @@ const FavorisPage = () => {
     return (
         <div> 
             <Main_APP />
+            <ContainerFavoris/>
         </div> 
     )
 }
