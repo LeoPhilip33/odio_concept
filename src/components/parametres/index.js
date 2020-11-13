@@ -84,7 +84,7 @@ return (
                                     </select>
 
                                     <select className="selectclassnameinformationprivees" name="mois" id="langue-select">
-                                        <option value="francais">Janviers</option>
+                                        <option value="francais">Janvier</option>
                                         <option value="anglais">Février</option>
                                         <option value="espagnol">Mars</option>
                                     </select>
