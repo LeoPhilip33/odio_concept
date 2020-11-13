@@ -1,0 +1,15 @@
+.Checkbox{
+    width: 25px;
+    height: auto;
+    margin: 5px;
+}
+
+.style_form_in{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+}
+
+.align_form{
+    margin: 5px;
+}
