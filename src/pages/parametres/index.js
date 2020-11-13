@@ -6,7 +6,6 @@ const ParametreComptePage = () => {
     return (
         <div> 
             <MainApp />
-            <h1></h1>
             <Parametre />
         </div> 
     )
