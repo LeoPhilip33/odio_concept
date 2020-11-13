@@ -1,5 +1,5 @@
 import React from 'react'
-import Main_APP from '../MainApp/MainApp'
+import MainApp from '../MainApp/MainApp'
 import ContainerPlaylists from '../../components/ContainerPlaylists/ContainerPlaylists'
 
 
@@ -7,7 +7,7 @@ import ContainerPlaylists from '../../components/ContainerPlaylists/ContainerPla
 const PlaylistsPage = () => {
     return (
         <div> 
-            <Main_APP />
+            <MainApp />
             <ContainerPlaylists />
         </div> 
     )

@@ -1,11 +1,11 @@
-import Main_APP from '../MainApp/MainApp'
+import MainApp from '../MainApp/MainApp'
 import ContainerTelechargement from '../../components/ContainerTelechargement/ContainerTelechargement';
 
 
 const TelechargementPage = () => {
     return (
         <div> 
-            <Main_APP />
+            <MainApp />
             <ContainerTelechargement />
 
         </div> 

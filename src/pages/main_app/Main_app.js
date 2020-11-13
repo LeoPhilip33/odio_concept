@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import Sidebargauche from '../../components/sidebar_gauche/Sidebargauche';
 import TopBarre from '../../components/topBarre/TopBarre';
-import './Main_app.css';
+import './MainApp.css';
 import PlayerBar from '../../components/player_bar/PlayerBar';
 
-class Main_app extends Component {
+class MainApp extends Component {
   render () {
     return (
       <div className="container_main_app">
@@ -26,4 +26,4 @@ class Main_app extends Component {
   }
 }
 
-export default Main_app;
+export default MainApp;
