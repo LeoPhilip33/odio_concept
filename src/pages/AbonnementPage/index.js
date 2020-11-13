@@ -1,6 +1,5 @@
 import React from 'react'
-import Main_APP from '../main_app/Main_app'
-import Button from '../../components/Button/index'
+import MainApp from '../MainApp/MainApp'
 import './AbonnementPage.css';
 import CheckboxVide from '../../components/CheckboxVide';
 import CheckboxRemplis from '../../components/CheckboxRemplis';
@@ -11,11 +10,11 @@ import Return from '../../components/img/return_arrow.svg'
 const AbonnementPage = () => {
     return (
         <div> 
-            <Main_APP/>
+            <MainApp/>
                 <div className="ContainerAbonnementPage">
                     <div className="box_flex"> 
                         <div className="style_retune">
-                            <img className="arrow_return" src={Return} alt=""/>
+                            <img className="arrow_return" src={Return}  alt="natation étoiles"/>
                             <div className="retour">Retour</div>
                         </div>
                         <h1 className="style_title_abonnementPage">Les offres</h1>

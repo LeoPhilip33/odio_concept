@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
 import Sidebargauche from '../../components/sidebar_gauche/Sidebargauche';
 import TopBarre from '../../components/topBarre/TopBarre';
-import './Main_app.css';
+import './MainApp.css';
 import PlayerBar from '../../components/player_bar/PlayerBar';
-import ContainerApp from '../../components/containerApp/ContainerApp';
 
-class Main_app extends Component {
+class MainApp extends Component {
   render () {
     return (
-      <div className="container_main_app">
+      <div className="container_MainApp">
         <div className="flex_elementsmainapp">
-          <div className="sidebar_style_main_app">
+          <div className="sidebar_style_MainApp">
             <Sidebargauche />
           </div>
           <div className="fixed_top_relative">
@@ -19,7 +18,7 @@ class Main_app extends Component {
             </div>
           </div>
         </div>
-        <div className="player_bar_style_main_app">
+        <div className="player_bar_style_MainApp">
           <PlayerBar />
         </div>
       </div>
@@ -27,4 +26,4 @@ class Main_app extends Component {
   }
 }
 
-export default Main_app;
+export default MainApp;

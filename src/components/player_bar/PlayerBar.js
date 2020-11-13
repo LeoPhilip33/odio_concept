@@ -11,7 +11,6 @@ import next from '../img/icon_right.svg';
 import loop from '../img/icon_loop.svg';
 import play from '../img/icon_play.svg';
 import random from '../img/icon_random.svg';
-import pause from '../img/icon_pause.svg';
 
 
 
@@ -26,19 +25,19 @@ class PlayerBar extends Component {
                 <div>Titre du podcast</div>
                 <div>Nom</div>
                     <div className="like_dislike_align">
-                        <img className="like_dislike" src={like}/>
-                        <img className="like_dislike" src={dislike}/>
+                        <img className="like_dislike" src={like} alt="natation étoiles"/>
+                        <img className="like_dislike" src={dislike} alt="natation étoiles"/>
                     </div>
                 
             </div>
 
             <div className="bar_lecture">
                 <div className="front_player_bar">
-                    <img className="random" src={random}/>
-                    <img className="previous" src={previous}/>
-                    <img className="play" src={play}/>
-                    <img className="next" src={next}/>
-                    <img className="loop" src={loop}/>
+                    <img className="random" src={random} alt="natation étoiles"/>
+                    <img className="previous" src={previous} alt="natation étoiles"/>
+                    <img className="play" src={play} alt="natation étoiles"/>
+                    <img className="next" src={next} alt="natation étoiles"/>
+                    <img className="loop" src={loop} alt="natation étoiles"/>
                 </div>
                 <div className="align_item_playerbar">
                     <div className="back_player_bar">
@@ -49,10 +48,10 @@ class PlayerBar extends Component {
             </div>
 
             <div className="icon_setting">
-                <img className="icon_setting_bookmark" src={bookmark}/>
-                <img className="icon_setting_chromecast" src={chromecast}/>
-                <img className="icon_setting_volume_up" src={volume_up}/>
-                <img className="icon_setting_volume_control" src={volume_control}/>
+                <img className="icon_setting_bookmark" src={bookmark} alt="natation étoiles"/>
+                <img className="icon_setting_chromecast" src={chromecast} alt="natation étoiles"/>
+                <img className="icon_setting_volume_up" src={volume_up} alt="natation étoiles"/>
+                <img className="icon_setting_volume_control" src={volume_control} alt="natation étoiles"/>
             </div>
         </div>
        
