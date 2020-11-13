@@ -1,11 +1,14 @@
 import React from 'react'
-import MainApp from '../MainApp/MainApp'
+import Main_APP from '../main_app/Main_app'
+import ContainerPlaylists from '../../components/ContainerPlaylists/ContainerPlaylists'
+
 
 
 const PlaylistsPage = () => {
     return (
         <div> 
-            <MainApp />
+            <Main_APP />
+            <ContainerPlaylists />
         </div> 
     )
 }

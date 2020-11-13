@@ -1,10 +1,13 @@
 import React from 'react'
-import MainApp from '../MainApp/MainApp'
+import Main_APP from '../main_app/Main_app'
+import ContainerFavoris from '../../components/ContainerFavoris/ContainerFavoris';
+
 
 const FavorisPage = () => {
     return (
         <div> 
-            <MainApp />
+            <Main_APP />
+            <ContainerFavoris/>
         </div> 
     )
 }

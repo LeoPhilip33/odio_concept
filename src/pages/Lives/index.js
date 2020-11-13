@@ -11,7 +11,6 @@ const LivesPage = () => {
                 <h1 className="modification_title_container_app"> Tous les thèmes </h1>
                 <ContainerTheme />
                 <ContainerTheme />
-                <ContainerTheme />
             </div>
         </div> 
     )
