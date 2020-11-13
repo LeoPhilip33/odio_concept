@@ -29,7 +29,7 @@
     cursor: pointer;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/theme_default_img.svg);
+    background-image: url(../img/theme_default_img.jpg);
     width: 240px;
     height: 120px;
     margin-left: 33px;
@@ -47,7 +47,7 @@
     cursor: pointer;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/theme_default_img.svg);
+    background-image: url(../img/theme_default_img.jpg);
     width: 240px;
     height: 120px;
     margin-left: 33px;
@@ -140,8 +140,8 @@
     width: 28px;
 }
 
-.style_dell_podcast_containerapp:hover{
-    cursor: pointer;
+.style_dell_hover:hover{
+    
     fill: #c70000;
     
     
