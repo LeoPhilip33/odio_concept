@@ -40,6 +40,8 @@
     width: 100%;
     margin-top: 5px;
     margin-bottom: 5px;
+    color: #171717;
+    transition: 0.2s;
 }
 .flex_color_degrade_sidebargauche:hover{
     cursor: pointer;
@@ -49,7 +51,9 @@
     width: 100%;
     margin-top: 5px;
     margin-bottom: 5px;
-    background-color: red;
+    color: #171717;
+    transform: scale(1.07);
+    transition: 0.2s;
 }
 .style_img_sidebargauche{
     margin-left: 10px;

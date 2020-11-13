@@ -1,12 +1,16 @@
 .container_parametres{
     margin-top: 70px;
     margin-left: 267px;
+    margin-bottom: 77px;
 }
 .containerparam_border{
-    display: flex;
     border: 1px solid #707070;
     width: 80%;
-    border-radius: 30px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.sous_containerparam_border{
+    display: flex;
 }
 .center_containerparam_border{
     display: flex;
@@ -56,8 +60,86 @@
     border: 1px solid #707070;
     border-radius: 5px;
     margin-left: 5px;
+    padding: 5px 25px;
+    transition: 0.5s;
+}
+.btn_parametersclass:hover{
+    cursor: pointer;
+    background-color: black;
+    border: 1px solid #707070;
+    color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 5px 25px;
+    transition: 0.5s;
 }
 .style_impit_parameterclass{
     padding: 5px 15px;
     margin-left: 5px;
+    width: 250px;
+}
+.txt_avant_input_parametres{
+    width: 130px;
+}
+.top_inputParametersclass{
+    margin-top: 10px;
+}
+.btn_fb_google_parametres{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 30px;
+    width: 266px;
+    background: linear-gradient(to right, #375DF0, #6A11CB);
+}
+.icon_fb_gg_parametre{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+.flex_btn_fb_google_parametres{
+    margin-top: 20px;
+    display: flex;    
+    justify-content: space-evenly;
+    max-width: 670px;
+}
+.flex_informations_privees{
+    display: flex;
+}
+.select_infor_privee_age_langue{
+    margin-left: 10px;
+}
+.selectclassnameinformationprivees{
+    cursor: pointer;
+    border: 1px solid #707070;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.top_language_slect_box{
+    margin-top: 10px;
+}
+.txt_select_box_parametre_compte{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.delet_le_compte_parametre{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    width: 100%;
+    border: 1px solid #6A11CB;
+    color: #6A11CB;
+    height: 45px;
+    border-radius: 5px;
 }
